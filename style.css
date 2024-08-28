@@ -1,0 +1,152 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar-wrapper{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 8px 0px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.login-btn button{
+  background-color: #d63843;
+  color: #ffffff;
+  padding: 7px 15px;
+  border: none;
+  cursor: pointer;
+}
+
+.btn-01{
+  background-color: #d63843;
+  color: #ffffff;
+  padding: 7px 15px;
+  border: none;
+  cursor: pointer;
+  margin-right: 20px;
+}
+
+.btn-02{
+  color: #808080;
+  padding: 7px 15px;
+  border: 1px solid #808080;
+  cursor: pointer;
+}
+
+.nav img{
+  cursor: pointer;
+}
+
+.listing-nav{
+  display: inline-flex;
+  gap: 20px;
+  align-items: center;
+  list-style: none;
+}
+
+.listing-nav li{
+  cursor: pointer;
+  font-size: 18px;
+  color: #555555;
+  font-weight: bold;
+}
+
+.nav{
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.shoe-img{
+  flex: 1;
+}
+
+.shoe-img img{
+  width: 100%;
+}
+
+
+.container{
+  padding: 0px 120px;
+}
+
+.body-wrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 80px 0px;
+  flex-wrap: wrap;
+}
+
+.set-gap{
+  margin-top: 25px;
+}
+
+.main-div{
+  flex: 1;
+}
+
+.main-div h1{
+  width: 90%;
+  font-size: 80px;
+  font-weight: bold;
+  color: #000;
+}
+
+.main-div p{
+  margin: 15px 0px;
+  width: 80%;
+  color: #6e6e6e;
+  font-size: 17px;
+}
+
+
+@media only screen and (max-width: 776px) {
+  .listing-nav{
+      display: none;
+  }
+
+  .main-div h1{
+      font-size: 32px;
+      width: 100%;
+  }
+
+  .container{
+      padding: 0px 110px;
+  }
+
+  .main-div p{
+      width: 100%;
+  }
+
+  .body-wrapper{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+  }
+}
+
+@media only screen and (max-width: 1100px){
+  .main-div h1{
+      font-size: 50px;
+  }
+}
+
+@media only screen and (max-width: 576px){
+  .container{
+      padding: 0px 50px;
+  }
+  .main-div h1{
+      font-size: 28px;
+      width: 100%;
+  }
+  .main-div p{
+      font-size: 15px;
+      width: 100%;
+  }
+}
